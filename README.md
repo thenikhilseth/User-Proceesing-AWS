@@ -3,10 +3,11 @@ It is a simple static page on which the data is coming from the AWS DynamoDB wit
 
 # Workflow:
 User --> Invoke API --> Enter AWS --> AWS Gateway --> Lambda Function --> DynamoDB
-When a user requests for the information, it will invoke an API request.
-The API request will invoke the lambda function through AWS API gateway.
-The lambda function consists of the logic to invoke DynamoDB database and get all the data.
-The lambda function will return the data which will go the same way towards the user screen.
+
+* When a user requests for the information, it will invoke an API request.
+* The API request will invoke the lambda function through AWS API gateway.
+* The lambda function consists of the logic to invoke DynamoDB database and get all the data.
+* The lambda function will return the data which will go the same way towards the user screen.
 
 
 
